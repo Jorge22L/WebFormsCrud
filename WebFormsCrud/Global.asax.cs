@@ -1,4 +1,5 @@
 ﻿using DAL.Repositories;
+using Negocio.Services;
 using SimpleInjector;
 using SimpleInjector.Integration.Web;
 using System;
@@ -31,6 +32,9 @@ namespace WebFormsCrud
             _container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();
             // Aquí puedes registrar otros repositorios o servicios según sea necesario
             _container.Register<IClienteRepository, ClienteRepository>(Lifestyle.Scoped);
+
+            // Capa de Negocios
+            _container.Register<IClienteService, ClienteService>(Lifestyle.Scoped);
 
             _container.Verify();
         }
