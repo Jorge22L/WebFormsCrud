@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsCrud", "WebFormsCrud.csproj", "{627E5A86-8479-4D55-B4C0-EA0FEE3DFE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{38DE372B-4404-465C-9EA0-6185B2A5814D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "..\Negocio\Negocio.csproj", "{B46DE5C8-9652-46D6-8EC4-BB0D89128C74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{627E5A86-8479-4D55-B4C0-EA0FEE3DFE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627E5A86-8479-4D55-B4C0-EA0FEE3DFE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627E5A86-8479-4D55-B4C0-EA0FEE3DFE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627E5A86-8479-4D55-B4C0-EA0FEE3DFE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DE372B-4404-465C-9EA0-6185B2A5814D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DE372B-4404-465C-9EA0-6185B2A5814D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DE372B-4404-465C-9EA0-6185B2A5814D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DE372B-4404-465C-9EA0-6185B2A5814D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46DE5C8-9652-46D6-8EC4-BB0D89128C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46DE5C8-9652-46D6-8EC4-BB0D89128C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46DE5C8-9652-46D6-8EC4-BB0D89128C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46DE5C8-9652-46D6-8EC4-BB0D89128C74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53204F6D-0844-47C1-88F8-DC34780F58B0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="583462c4220f45baacef47856343957e" Name="Diagram1">
+        <EntityTypeShape EntityType="CRUD_PedidosModel.Clientes" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRUD_PedidosModel.DetallePedidos" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRUD_PedidosModel.Pedidos" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRUD_PedidosModel.Productos" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="CRUD_PedidosModel.FK__Pedidos__Cliente__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="CRUD_PedidosModel.FK__DetallePe__Pedid__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="CRUD_PedidosModel.FK__DetallePe__Produ__534D60F1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
