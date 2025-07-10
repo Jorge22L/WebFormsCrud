@@ -19,7 +19,7 @@
                     </div>
 
                     <div class="col-md-6 text-right">
-                        <asp:HyperLink ID="lnkNuevo" runat="server" NavigateUrl="#" CssClass="btn btn-success">
+                        <asp:HyperLink ID="lnkNuevo" runat="server" NavigateUrl="~/Pages/Clientes/Crear.aspx" CssClass="btn btn-success">
                             <i class="fas fa-plus"></i> Nuevo Cliente
                         </asp:HyperLink>
                     </div>

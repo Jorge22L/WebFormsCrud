@@ -138,6 +138,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\Clientes\Crear.aspx" />
     <Content Include="Pages\Clientes\Listar.aspx" />
     <Content Include="Scripts\all.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -227,6 +228,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Clientes\Crear.aspx.cs">
+      <DependentUpon>Crear.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Clientes\Crear.aspx.designer.cs">
+      <DependentUpon>Crear.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Clientes\Listar.aspx.cs">
       <DependentUpon>Listar.aspx</DependentUpon>
